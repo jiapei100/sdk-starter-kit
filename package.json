@@ -1,0 +1,16 @@
+{
+  "name": "sdk-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "debug": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "Guillermo Bruce",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
