@@ -23,8 +23,10 @@ You can obtain your model sid from a matterport url, ie
 https://showcase-next.matterport.com/showcase-beta?m=SxQL3iGyoDo
 
 #### 4. Run debug web server
+Depending on your system, you might not need to run npm as sudo.
+
 ```shell
-npm run debug
+sudo npm run debug
 Password:*****
 
 > sdk-starter-kit@1.0.0 debug /Users/guillermo/Documents/sdk-starter-kit copy
@@ -57,4 +59,3 @@ webpack: Compiled successfully.
 
 ```
 
-You may have to run npm as `sudo` to get serve at port 80.
