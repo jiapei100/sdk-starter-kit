@@ -17,8 +17,7 @@ $ npm install
 #### 3. Configure your application settings
 Open config.json in your favorite text editor and replace the following strings:
 
-`REPLACE_WITH_YOUR_MODEL_SID` with your model sid<br>
-`REPLACE_WITH_YOUR_API_KEY` with your api key
+`REPLACE_WITH_YOUR_MODEL_SID` and `REPLACE_WITH_YOUR_API_KEY`
 
 You can obtain your model sid from a matterport url, ie
 https://showcase-next.matterport.com/showcase-beta?m=SxQL3iGyoDo
