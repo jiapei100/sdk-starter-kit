@@ -9,7 +9,7 @@ $ git clone git@github.com:matterport/sdk-starter-kit.git MyApp
 $ cd MyApp
 ```
 
-#### 2. Install depedencies
+#### 2. Install dependencies
 
 ```shell
 $ npm install
@@ -19,11 +19,11 @@ Open [config.json](./config.json) in your favorite text editor and replace the f
 
 `REPLACE_WITH_YOUR_MODEL_SID` and `REPLACE_WITH_YOUR_API_KEY`
 
-You can obtain your model sid from a matterport url, ie
+You can obtain your model sid from a Matterport url, ie
 https://showcase-next.matterport.com/showcase-beta?m=SxQL3iGyoDo
 
 #### 4. Run debug web server
-Depending on your system, you might not need to run npm as sudo.
+Depending on your system, you might not need to run npm as sudo. Note: Some Cygwin setups may create orphaned Node.exe processes when terminating webpack-dev-server.
 
 ```shell
 sudo npm run debug
@@ -64,7 +64,7 @@ Your application can begin using the Matterport SDK after a successful connectio
 See [src/index.js](src/index.js) line 11
 
 ```
-const showcase = window.SHOWCASE_SDK.connect(showcaseFrame, Config.ApiKey, '3.0')
+window.SHOWCASE_SDK.connect(showcaseFrame, Config.ApiKey, '3.0')
   .then(function(sdk) {
     console.log('SDK Connected!');
 
