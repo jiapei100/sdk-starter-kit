@@ -15,7 +15,7 @@ $ cd MyApp
 $ npm install
 ```
 #### 3. Configure your application settings
-Open config.json in your favorite text editor and replace the following strings:
+Open [config.json](./config.json) in your favorite text editor and replace the following strings:
 
 `REPLACE_WITH_YOUR_MODEL_SID` and `REPLACE_WITH_YOUR_API_KEY`
 
