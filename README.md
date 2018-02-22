@@ -9,7 +9,7 @@ $ git clone git@github.com:matterport/sdk-starter-kit.git MyApp
 $ cd MyApp
 ```
 
-#### 2. Install depedencies
+#### 2. Install dependencies
 
 ```shell
 $ npm install
@@ -19,7 +19,7 @@ Open [config.json](./config.json) in your favorite text editor and replace the f
 
 `REPLACE_WITH_YOUR_MODEL_SID` and `REPLACE_WITH_YOUR_API_KEY`
 
-You can obtain your model sid from a matterport url, ie
+You can obtain your model sid from a Matterport url, ie
 https://showcase-next.matterport.com/showcase-beta?m=SxQL3iGyoDo
 
 #### 4. Run debug web server
