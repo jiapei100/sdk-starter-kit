@@ -1,6 +1,6 @@
 # sdk-starter-kit
 
-[SDK Reference](https://matterport.github.io/showcase-sdk/docs/)
+[Matterport SDK Reference](https://matterport.github.io/showcase-sdk/docs/)
 
 #### 1. Get the latest version
 
