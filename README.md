@@ -74,3 +74,21 @@ window.SHOWCASE_SDK.connect(showcaseFrame, Config.ApiKey, '3.0')
     });
   })
 ```
+
+#### 5. Customize the viewer
+You can customize the viewer by setting url parameters on the iframe link,
+
+For example, 
+```javascript
+const showcaseFrame = document.getElementById('showcase');
+showcaseFrame.src = 'https://my.matterport.com/showcase-beta?m=' + Config.Sid + '&play=1&brand=0&qs=1';
+```
+These options set:
+<table>
+    <tr><td>Option</td><td>Description</td></tr>
+    <tr><td>play=1</td><td>Automatically opens the Matterport Space when the iframe loads on the page</td></tr>
+    <tr><td>brand=0</td><td>Hide 'Presented By' details when Space opens.</td></tr>
+    <tr><td>qs=1</td><td>Enable Quickstart (when the Matterport Space first opens, go straight into Inside View).</td></tr>
+</table>
+
+[URL Parameter Link](https://support.matterport.com/hc/en-us/articles/209980967-URL-Parameters)
