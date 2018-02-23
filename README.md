@@ -91,4 +91,4 @@ These options set:
     <tr><td>qs=1</td><td>Enable Quickstart (when the Matterport Space first opens, go straight into Inside View).</td></tr>
 </table>
 
-[URL Parameter Link](https://support.matterport.com/hc/en-us/articles/209980967-URL-Parameters)
+[Matterport URL Parameters Link](https://support.matterport.com/hc/en-us/articles/209980967-URL-Parameters)
