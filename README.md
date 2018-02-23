@@ -63,7 +63,7 @@ webpack: Compiled successfully.
 Your application can begin using the Matterport SDK after a successful connection.
 See [src/index.js](src/index.js) line 11
 
-```
+```javascript
 window.SHOWCASE_SDK.connect(showcaseFrame, Config.ApiKey, '3.0')
   .then(function(sdk) {
     console.log('SDK Connected!');
