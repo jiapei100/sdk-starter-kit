@@ -76,7 +76,7 @@ window.SHOWCASE_SDK.connect(showcaseFrame, Config.ApiKey, '3.0')
 ```
 
 #### 5. Customize the viewer
-You can customize the viewer by setting url parameters on the iframe link,
+You can customize the viewer by setting url parameters on the iframe src,
 
 For example, 
 ```javascript
