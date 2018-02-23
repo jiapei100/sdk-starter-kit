@@ -21,6 +21,7 @@ Open [config.json](./config.json) in your favorite text editor and replace the f
 
 You can obtain your model sid from a Matterport url, ie
 https://showcase-next.matterport.com/showcase-beta?m=SxQL3iGyoDo
+Note that a default model of the hackathon building has already been provided.
 
 #### 4. Run debug web server
 Depending on your system, you might not need to run npm as sudo. Note: Some Cygwin setups may create orphaned Node.exe processes when terminating webpack-dev-server.
