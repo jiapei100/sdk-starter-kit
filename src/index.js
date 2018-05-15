@@ -12,8 +12,23 @@ window.SHOWCASE_SDK.connect(showcaseFrame, Config.ApiKey, '3.0')
     console.log('SDK Connected!');
 
     // Your Matterport SDK application starts here.
-    sdk.Model.getData().then(function(modelData){
-      console.log('Model data loaded for sid:', modelData.sid);
+    sdk.on(sdk.App.Event.PHASE_CHANGE, function(phase) {
+      if(phase === sdk.App.Phase.PLAYING) {
+        sdk.Camera.takeScreenShot({
+          width: 256,
+          height: 256
+        }, {
+          mattertags: false,
+          sweeps: false
+        })
+        .then(function (screenshotUrl) {
+          var preview = document.getElementById('screenshot-preview');
+          preview.setAttribute('src', screenshotUrl);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+      }
     });
   })
   .catch(function(error) {
