@@ -20,7 +20,7 @@ Open [config.json](./config.json) in your favorite text editor and replace the f
 `REPLACE_WITH_YOUR_MODEL_SID` and `REPLACE_WITH_YOUR_API_KEY`
 
 You can obtain your model sid from a Matterport url, ie
-https://showcase-next.matterport.com/showcase-beta?m=SxQL3iGyoDo
+https://my.matterport.com/showcase-beta?m=SxQL3iGyoDo
 
 #### 4. Run debug web server
 Depending on your system, you might not need to run npm as sudo. Note: Some Cygwin setups may create orphaned Node.exe processes when terminating webpack-dev-server.
